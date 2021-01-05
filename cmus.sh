@@ -13,6 +13,9 @@ case $cmusstatus in
     "paused")
         icon=""
         ;;
+    "stopped")
+        echo
+        exit 0
 esac
 
 if [[ $artist = *[!\ ]* ]]; then
